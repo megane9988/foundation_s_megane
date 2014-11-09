@@ -6,13 +6,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="thumbnail">
-<?php
+		<a href="<?php the_permalink(); ?>"><?php
 if (has_post_thumbnail()) {
 	the_post_thumbnail( 'thumbnail','');
 }else {
 	echo '<img src="http://placehold.it/150x150/ccc/ccc&text=coccot" />';
 }
-?>
+?></a>
 	</div><!-- /.thumb -->
 	<div class="post_info">
 		<header class="entry-header">
@@ -24,5 +24,8 @@ if (has_post_thumbnail()) {
 			</div><!-- .entry-meta -->
 			<?php endif; ?>
 		</header><!-- .entry-header -->
+		<div class="entry-content">
+			<?php the_excerpt(); ?>
+		</div>
 	</div><!-- /.post_info -->
 </article><!-- #post-## -->

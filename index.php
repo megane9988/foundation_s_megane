@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php foundation_s_megane_paging_nav(); ?>
+			<?php megane9988_paging_nav(); ?>
 
 		<?php else : ?>
 

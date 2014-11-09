@@ -21,6 +21,9 @@ article{
 		}
 		float: left;
 		margin-right: 10px;
+		img{
+			@include border-radius(50%);
+		}
 	}
 	.post_info{
 		overflow: hidden;

@@ -11920,7 +11920,7 @@ _sよりの流用箇所
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 0.5em 0 0;
 }
 
 /* line 71, scss/_s_style.scss */
@@ -12163,7 +12163,13 @@ article .thumbnail {
     width: auto;
   }
 }
-/* line 25, scss/_module.scss */
+/* line 24, scss/_module.scss */
+article .thumbnail img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 28, scss/_module.scss */
 article .post_info {
   overflow: hidden;
 }

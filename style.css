@@ -9079,6 +9079,65 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 1, scss/_grid.scss */
+#masthead {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
+#masthead:before, #masthead:after {
+  content: " ";
+  display: table;
+}
+/* line 173, bower_components/foundation/scss/foundation/components/_global.scss */
+#masthead:after {
+  clear: both;
+}
+/* line 3, scss/_grid.scss */
+#masthead .site-branding, #masthead #site-navigation {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+/* line 7, scss/_grid.scss */
+#content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
+#content:before, #content:after {
+  content: " ";
+  display: table;
+}
+/* line 173, bower_components/foundation/scss/foundation/components/_global.scss */
+#content:after {
+  clear: both;
+}
+/* line 9, scss/_grid.scss */
+#content #primary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 66.66667%;
+  float: left;
+}
+/* line 12, scss/_grid.scss */
+#content #secondary {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 33.33333%;
+  float: left;
+}
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -9338,4 +9397,9 @@ object {
 /* line 224, scss/_s_style.scss */
 .gallery-caption {
   display: block;
+}
+
+/* line 1, scss/_base.scss */
+figure {
+  margin: 0;
 }

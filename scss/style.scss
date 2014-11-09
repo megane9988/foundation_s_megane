@@ -24,7 +24,9 @@ and Blueprint http://www.blueprintcss.org/
 @import "compass";
 @import "settings";
 @import "foundation";
-@import "_s_style";
+@import "grid";
+@import "s_style";
+@import "base";
 
 // Or selectively include components
 // @import

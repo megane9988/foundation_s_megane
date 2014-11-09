@@ -1,5 +1,30 @@
+/*
+Theme Name: foundation_s_megane
+Theme URI: http://underscores.me/
+Author: megane9988
+Author URI: http://m-g-n.me
+Description: Description
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: foundation_s_megane
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ foundation_s_megane is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+@import "compass";
 @import "settings";
 @import "foundation";
+@import "_s_style";
 
 // Or selectively include components
 // @import

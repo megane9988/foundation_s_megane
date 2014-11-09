@@ -94,7 +94,7 @@ add_action( 'widgets_init', 'foundation_s_megane_widgets_init' );
 function foundation_s_megane_scripts() {
 	wp_deregister_script('jquery');
 	wp_enqueue_style( 'foundationfoundation_s_megane_megane-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'foundation-jquary', get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js', array(), '20141109', false );
+	wp_enqueue_script( 'foundation-jquary', get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js', array(), '20141109', ture );
 	wp_enqueue_script( 'foundation-min-js', get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js', array(), '20141109', true );
 	wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array(), '20141109', true );
 

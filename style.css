@@ -11830,6 +11830,9 @@ gridの設定
     padding-right: 0.9375rem;
     width: 66.66667%;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 }
 /* line 20, scss/_grid.scss */
@@ -11844,8 +11847,11 @@ gridの設定
   #content #secondary {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 33.33333%;
+    width: 66.66667%;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 }
 /* line 26, scss/_grid.scss */
@@ -12121,6 +12127,11 @@ a:hover {
 .entry-content {
   word-wrap: break-word;
 }
+/* line 16, scss/_type.scss */
+.entry-content h1, .entry-content h2 {
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 30px;
+}
 
 /* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
 .nav-links:before, .nav-links:after {
@@ -12179,7 +12190,12 @@ body.home {
   background-repeat: no-repeat;
 }
 
-/* line 25, scss/_module.scss */
+/* line 24, scss/_module.scss */
+.site-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 27, scss/_module.scss */
 .site-title a {
   color: #444444;
   display: inline-block;
@@ -12189,34 +12205,34 @@ body.home {
   font-weight: bold;
 }
 
-/* line 36, scss/_module.scss */
+/* line 38, scss/_module.scss */
 .home .site-branding {
   padding: 210px 0;
   margin-bottom: 20px;
 }
-/* line 40, scss/_module.scss */
+/* line 42, scss/_module.scss */
 .home .site-title {
   text-align: center;
 }
 
-/* line 45, scss/_module.scss */
+/* line 47, scss/_module.scss */
 .feature-content {
   margin-bottom: 30px;
   padding: 5px;
 }
-/* line 48, scss/_module.scss */
+/* line 50, scss/_module.scss */
 .feature-content a {
   border: 1px solid #eeeeee;
   padding: 15px;
   display: block;
 }
-/* line 52, scss/_module.scss */
+/* line 54, scss/_module.scss */
 .feature-content a:hover {
   background-color: #f9f9f9;
   text-decoration: none;
 }
 
-/* line 61, scss/_module.scss */
+/* line 63, scss/_module.scss */
 article {
   border-bottom: 1px solid #eeeeee;
 }
@@ -12229,7 +12245,7 @@ article:before, article:after {
 article:after {
   clear: both;
 }
-/* line 64, scss/_module.scss */
+/* line 66, scss/_module.scss */
 article .thumbnail {
   width: 75px;
   height: auto;
@@ -12237,26 +12253,47 @@ article .thumbnail {
   margin-right: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 64, scss/_module.scss */
+  /* line 66, scss/_module.scss */
   article .thumbnail {
     width: auto;
   }
 }
-/* line 72, scss/_module.scss */
+/* line 74, scss/_module.scss */
 article .thumbnail img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 76, scss/_module.scss */
+/* line 78, scss/_module.scss */
 article .post_info {
   overflow: hidden;
 }
 
-/* line 83, scss/_module.scss */
+/* line 85, scss/_module.scss */
 #colophon {
   margin-top: 20px;
   padding: 20px 0;
   background-color: #222222;
   color: #f9f9f9;
+}
+/* line 90, scss/_module.scss */
+#colophon a {
+  color: #f9f9f9;
+  text-decoration: underline;
+}
+/* line 93, scss/_module.scss */
+#colophon a:hover {
+  text-decoration: none;
+}
+
+/* line 1, scss/_syntaxhighlighter.scss */
+.syntaxhighlighter {
+  padding: 20px;
+  font-size: 0.875rem !important;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 7, scss/_syntaxhighlighter.scss */
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea {
+  font-size: 0.875rem !important;
 }

@@ -14,13 +14,13 @@ gridの設定
 		margin-bottom: 20px;
 		@include grid-column(12);
 		@media #{$large-up} {
-			@include grid-column(8);
+			@include grid-column($columns:8,$center:true);
 		}
 	}
 	#secondary{
 		@include grid-column(12);
 		@media #{$large-up} {
-			@include grid-column(4);
+			@include grid-column($columns:8,$center:true);
 		}
 	}
 	.feature-content{

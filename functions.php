@@ -92,6 +92,7 @@ add_action( 'widgets_init', 'foundation_s_megane_widgets_init' );
  * Enqueue scripts and styles.
  */
 function foundation_s_megane_scripts() {
+	wp_deregister_script('jquery');
 	wp_enqueue_style( 'foundationfoundation_s_megane_megane-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'foundation-jquary', get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js', array(), '20141109', false );
 	wp_enqueue_script( 'foundation-min-js', get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js', array(), '20141109', true );
@@ -181,3 +182,17 @@ if ( ! function_exists( 'megane9988_paging_nav' ) ) {
 		}
 	}
 }
+
+
+/**
+ * Excerpt customize
+ */
+function new_excerpt_mblength($length) {
+	return 100;
+}
+add_filter('excerpt_mblength', 'new_excerpt_mblength');
+
+function new_excerpt_more($more) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');

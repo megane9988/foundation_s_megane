@@ -13,14 +13,6 @@
 
 get_header(); ?>
 
-	<div id="feature" class="promotion-area">
-			<div class="feature-content">
-				<a href="#">
-					<h1 class="feature-content-title">fiwifwie</h1>
-					<p class="feature-content-description">それは事実とにかくこの意味めというものの日にあらるで。よし当時を換言ごともとうとうこの専攻なでほどにするがみませをも相当なれますますて、始終には連れだたなな。がたのなるうのもあに今朝がいったいですうま</p>
-				</a>
-			</div>
-	</div><!-- /.feature -->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

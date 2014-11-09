@@ -11900,8 +11900,8 @@ _sよりの流用箇所
 
 /* line 50, scss/_s_style.scss */
 .hentry {
-  margin: 0;
-  padding: 20px 0;
+  margin: 0 0 15px 0;
+  padding: 0 0 15px 0;
 }
 
 /* line 55, scss/_s_style.scss */

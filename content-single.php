@@ -11,6 +11,12 @@
 		<div class="entry-meta">
 			<?php foundation_s_megane_posted_on(); ?>
 		</div><!-- .entry-meta -->
+		<?php
+		if (has_post_thumbnail()) {?>
+		<div class="eyecatch">
+			<?php the_post_thumbnail(); ?>
+		</div><!-- /.eyecatch -->
+		<?php }?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

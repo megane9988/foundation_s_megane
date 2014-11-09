@@ -11848,6 +11848,13 @@ gridの設定
     float: left;
   }
 }
+/* line 26, scss/_grid.scss */
+#content .feature-content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
 
 /*
 _sよりの流用箇所
@@ -12167,16 +12174,12 @@ a:hover {
 
 /* line 16, scss/_module.scss */
 body.home {
-  background-image: url(http://placehold.it/1500x500/444/444&text=img);
+  background-image: url(http://placehold.it/1500x500/f6f6f6/f6f6f6&text=img);
   background-position: top center;
   background-repeat: no-repeat;
 }
 
 /* line 25, scss/_module.scss */
-.site-title {
-  text-align: center;
-}
-/* line 27, scss/_module.scss */
 .site-title a {
   color: #444444;
   display: inline-block;
@@ -12186,18 +12189,34 @@ body.home {
   font-weight: bold;
 }
 
-/* line 38, scss/_module.scss */
+/* line 36, scss/_module.scss */
 .home .site-branding {
   padding: 210px 0;
   margin-bottom: 20px;
 }
-/* line 43, scss/_module.scss */
-.home .site-title a {
-  color: #fafafa;
-  border: 3px solid #f9f9f9;
+/* line 40, scss/_module.scss */
+.home .site-title {
+  text-align: center;
 }
 
-/* line 55, scss/_module.scss */
+/* line 45, scss/_module.scss */
+.feature-content {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+/* line 48, scss/_module.scss */
+.feature-content a {
+  border: 1px solid #eeeeee;
+  padding: 15px;
+  display: block;
+}
+/* line 52, scss/_module.scss */
+.feature-content a:hover {
+  background-color: #f9f9f9;
+  text-decoration: none;
+}
+
+/* line 61, scss/_module.scss */
 article {
   border-bottom: 1px solid #eeeeee;
 }
@@ -12210,7 +12229,7 @@ article:before, article:after {
 article:after {
   clear: both;
 }
-/* line 58, scss/_module.scss */
+/* line 64, scss/_module.scss */
 article .thumbnail {
   width: 75px;
   height: auto;
@@ -12218,23 +12237,23 @@ article .thumbnail {
   margin-right: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 58, scss/_module.scss */
+  /* line 64, scss/_module.scss */
   article .thumbnail {
     width: auto;
   }
 }
-/* line 66, scss/_module.scss */
+/* line 72, scss/_module.scss */
 article .thumbnail img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 70, scss/_module.scss */
+/* line 76, scss/_module.scss */
 article .post_info {
   overflow: hidden;
 }
 
-/* line 77, scss/_module.scss */
+/* line 83, scss/_module.scss */
 #colophon {
   margin-top: 20px;
   padding: 20px 0;

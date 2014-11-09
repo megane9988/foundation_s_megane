@@ -23,4 +23,7 @@ gridの設定
 			@include grid-column(4);
 		}
 	}
+	.feature-content{
+		@include grid-column(12);
+	}
 }

@@ -15,15 +15,13 @@
 
 body.home{
 	// background-image: url(img/bg/top-main-bg.jpg);
-	background-image: url(http://placehold.it/1500x500/444/444&text=img);
-
+	background-image: url(http://placehold.it/1500x500/f6f6f6/f6f6f6&text=img);
 	background-position: top center;
 	background-repeat: no-repeat;
 }
 
 // site-branding -----------------------
 .site-title{
-	text-align: center;
 	a{
 		color: $tuatara;
 		display: inline-block;
@@ -40,15 +38,23 @@ body.home{
 		margin-bottom: 20px;
 	}
 	.site-title{
-	a{
-		color: $ghost;
-		border: 3px solid $snow;
+	text-align: center;
 	}
 }
+
+.feature-content{
+	margin-bottom: 30px;
+	padding: 5px;
+	a{
+		border: 1px solid $smoke;
+		padding: 15px;
+		display: block;
+		&:hover{
+			background-color: $snow;
+			text-decoration: none;
+		}
+	}
 }
-
-
-
 
 // article -----------------------------
 

@@ -12137,7 +12137,7 @@ pre {
   display: block;
 }
 
-/* line 13, scss/_module.scss */
+/* line 16, scss/_module.scss */
 article {
   border-bottom: 1px solid #eeeeee;
 }
@@ -12150,7 +12150,7 @@ article:before, article:after {
 article:after {
   clear: both;
 }
-/* line 16, scss/_module.scss */
+/* line 19, scss/_module.scss */
 article .thumbnail {
   width: 75px;
   height: auto;
@@ -12158,18 +12158,26 @@ article .thumbnail {
   margin-right: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 16, scss/_module.scss */
+  /* line 19, scss/_module.scss */
   article .thumbnail {
     width: auto;
   }
 }
-/* line 24, scss/_module.scss */
+/* line 27, scss/_module.scss */
 article .thumbnail img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 28, scss/_module.scss */
+/* line 31, scss/_module.scss */
 article .post_info {
   overflow: hidden;
+}
+
+/* line 38, scss/_module.scss */
+#colophon {
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #222222;
+  color: #f9f9f9;
 }

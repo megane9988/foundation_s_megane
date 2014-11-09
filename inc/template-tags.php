@@ -18,7 +18,6 @@ function foundation_s_megane_paging_nav() {
 	}
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'foundationfoundation_s_megane_megane' ); ?></h1>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
@@ -49,7 +48,6 @@ function foundation_s_megane_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'foundationfoundation_s_megane_megane' ); ?></h1>
 		<div class="nav-links">
 			<?php
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'foundationfoundation_s_megane_megane' ) );
@@ -67,24 +65,18 @@ if ( ! function_exists( 'foundation_s_megane_posted_on' ) ) :
  */
 function foundation_s_megane_posted_on() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
-	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
-	}
-
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( 'c' ) ),
-		esc_html( get_the_date() ),
-		esc_attr( get_the_modified_date( 'c' ) ),
-		esc_html( get_the_modified_date() )
+		esc_html( get_the_date() )
 	);
 
 	$posted_on = sprintf(
-		_x( 'Posted on %s', 'post date', 'foundationfoundation_s_megane_megane' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		_x( '<i class="fa fa-calendar"></i> %s', 'post date', 'foundationfoundation_s_megane_megane' ),
+		$time_string
 	);
 
 	$byline = sprintf(
-		_x( 'by %s', 'post author', 'foundationfoundation_s_megane_megane' ),
+		_x( '<i class="fa fa-pencil"></i> %s', 'post author', 'foundationfoundation_s_megane_megane' ),
 		'<span class="author vcard"><a class="url" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
@@ -103,13 +95,13 @@ function foundation_s_megane_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'foundationfoundation_s_megane_megane' ) );
 		if ( $categories_list && foundation_s_megane_categorized_blog() ) {
-			printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'foundationfoundation_s_megane_megane' ) . '</span>', $categories_list );
+			printf( '<span class="cat-links">' . __( '<i class="fa fa-folder-open-o"></i> %1$s') . '</span>', $categories_list );
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( ', ', 'foundationfoundation_s_megane_megane' ) );
+		$tags_list = get_the_tag_list( '', __( '') );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'foundationfoundation_s_megane_megane' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( '<i class="fa fa-tags"></i> %1$s' ) . '</span>', $tags_list );
 		}
 	}
 

@@ -9166,7 +9166,6 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-6.0 Accessibility
 7.0 Alignments
 10.0 Content
 	10.1 Posts and pages
@@ -9177,60 +9176,23 @@ _sよりの流用箇所
 	12.2 Galleries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-6.0 Accessibility
---------------------------------------------------------------*/
-/* Text meant only for screen readers */
-/* line 24, scss/_s_style.scss */
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
-/* line 32, scss/_s_style.scss */
-.screen-reader-text:hover,
-.screen-reader-text:active,
-.screen-reader-text:focus {
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-  clip: auto !important;
-  color: #21759b;
-  display: block;
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-weight: bold;
-  height: auto;
-  left: 5px;
-  line-height: normal;
-  padding: 15px 23px 14px;
-  text-decoration: none;
-  top: 5px;
-  width: auto;
-  z-index: 100000;
-  /* Above WP toolbar */
-}
-
-/*--------------------------------------------------------------
 7.0 Alignments
 --------------------------------------------------------------*/
-/* line 57, scss/_s_style.scss */
+/* line 22, scss/_s_style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 63, scss/_s_style.scss */
+/* line 28, scss/_s_style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 69, scss/_s_style.scss */
+/* line 34, scss/_s_style.scss */
 .aligncenter {
   clear: both;
   display: block;
@@ -9243,36 +9205,36 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
-/* line 81, scss/_s_style.scss */
+/* line 46, scss/_s_style.scss */
 .sticky {
   display: block;
 }
 
-/* line 85, scss/_s_style.scss */
+/* line 50, scss/_s_style.scss */
 .hentry {
   margin: 0 0 1.5em;
 }
 
-/* line 89, scss/_s_style.scss */
+/* line 54, scss/_s_style.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 94, scss/_s_style.scss */
+/* line 59, scss/_s_style.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 99, scss/_s_style.scss */
+/* line 64, scss/_s_style.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-/* line 105, scss/_s_style.scss */
+/* line 70, scss/_s_style.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -9281,7 +9243,7 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
-/* line 113, scss/_s_style.scss */
+/* line 78, scss/_s_style.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -9290,12 +9252,12 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 10.3 Comments
 --------------------------------------------------------------*/
-/* line 121, scss/_s_style.scss */
+/* line 86, scss/_s_style.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 125, scss/_s_style.scss */
+/* line 90, scss/_s_style.scss */
 .bypostauthor {
   display: block;
 }
@@ -9304,7 +9266,7 @@ _sよりの流用箇所
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 133, scss/_s_style.scss */
+/* line 98, scss/_s_style.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -9312,7 +9274,7 @@ _sよりの流用箇所
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 139, scss/_s_style.scss */
+/* line 104, scss/_s_style.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -9320,7 +9282,7 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 12.0 Media
 --------------------------------------------------------------*/
-/* line 146, scss/_s_style.scss */
+/* line 111, scss/_s_style.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -9331,7 +9293,7 @@ _sよりの流用箇所
 }
 
 /* Make sure embeds and iframes fit their containers */
-/* line 156, scss/_s_style.scss */
+/* line 121, scss/_s_style.scss */
 embed,
 iframe,
 object {
@@ -9341,24 +9303,24 @@ object {
 /*--------------------------------------------------------------
 12.1 Captions
 --------------------------------------------------------------*/
-/* line 165, scss/_s_style.scss */
+/* line 130, scss/_s_style.scss */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
 
-/* line 170, scss/_s_style.scss */
+/* line 135, scss/_s_style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
 
-/* line 175, scss/_s_style.scss */
+/* line 140, scss/_s_style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 179, scss/_s_style.scss */
+/* line 144, scss/_s_style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
@@ -9366,12 +9328,12 @@ object {
 /*--------------------------------------------------------------
 12.2 Galleries
 --------------------------------------------------------------*/
-/* line 186, scss/_s_style.scss */
+/* line 151, scss/_s_style.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 190, scss/_s_style.scss */
+/* line 155, scss/_s_style.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -9379,47 +9341,47 @@ object {
   width: 100%;
 }
 
-/* line 197, scss/_s_style.scss */
+/* line 162, scss/_s_style.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 201, scss/_s_style.scss */
+/* line 166, scss/_s_style.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 205, scss/_s_style.scss */
+/* line 170, scss/_s_style.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 209, scss/_s_style.scss */
+/* line 174, scss/_s_style.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 213, scss/_s_style.scss */
+/* line 178, scss/_s_style.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 217, scss/_s_style.scss */
+/* line 182, scss/_s_style.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 221, scss/_s_style.scss */
+/* line 186, scss/_s_style.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 225, scss/_s_style.scss */
+/* line 190, scss/_s_style.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 229, scss/_s_style.scss */
+/* line 194, scss/_s_style.scss */
 .gallery-caption {
   display: block;
 }

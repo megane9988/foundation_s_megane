@@ -11,6 +11,7 @@ gridの設定
 #content{
 	@include grid-row();
 	#primary{
+		margin-bottom: 20px;
 		@include grid-column(12);
 		@media #{$large-up} {
 			@include grid-column(8);

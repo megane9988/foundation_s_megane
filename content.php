@@ -10,7 +10,7 @@
 if (has_post_thumbnail()) {
 	the_post_thumbnail( 'thumbnail','');
 }else {
-	echo '<img src="http://placehold.it/150x150/ccc/ccc&text=coccot" />';
+	echo '<img src="http://placehold.it/150x150/444/444&text=coccot" />';
 }
 ?></a>
 	</div><!-- /.thumb -->

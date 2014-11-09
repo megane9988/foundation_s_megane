@@ -11,6 +11,45 @@
 	display: block;
 }
 
+// body backgroundimg-------------------
+
+body.home{
+	// background-image: url(img/bg/top-main-bg.jpg);
+	background-image: url(http://placehold.it/1500x500/444/444&text=img);
+
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+// site-branding -----------------------
+.site-title{
+	text-align: center;
+	a{
+		color: $tuatara;
+		display: inline-block;
+		padding: 15px 30px;
+		margin: 10px 0;
+		border: 3px solid $tuatara;
+		font-weight: bold;
+	}
+}
+
+.home{
+	.site-branding{
+		padding: 210px 0;
+		margin-bottom: 20px;
+	}
+	.site-title{
+	a{
+		color: $ghost;
+		border: 3px solid $snow;
+	}
+}
+}
+
+
+
+
 // article -----------------------------
 
 article{

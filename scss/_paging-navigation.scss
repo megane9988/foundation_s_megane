@@ -1,0 +1,19 @@
+.paging-navigation{
+	.page-numbers{
+		display: inline-block;
+		padding: 5px 10px;
+		background-color: $snow;
+		&.current{
+			background-color: $primary-color;
+			color: $white;
+		}
+		&:hover{
+			background-color: $primary-color;
+			color: $white;
+		}
+		&.dots{
+			background-color: transparent;
+			color: $oil;
+		}
+	}
+}

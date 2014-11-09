@@ -7624,7 +7624,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 /* line 262, bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -7880,7 +7880,7 @@ blockquote p {
 @media only screen and (min-width: 40.063em) {
   /* line 455, bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   /* line 456, bower_components/foundation/scss/foundation/components/_type.scss */
@@ -11900,29 +11900,30 @@ _sよりの流用箇所
 
 /* line 50, scss/_s_style.scss */
 .hentry {
-  margin: 0 0 1.5em;
+  margin: 0;
+  padding: 20px 0;
 }
 
-/* line 54, scss/_s_style.scss */
+/* line 55, scss/_s_style.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 59, scss/_s_style.scss */
+/* line 60, scss/_s_style.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 64, scss/_s_style.scss */
+/* line 65, scss/_s_style.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-/* line 70, scss/_s_style.scss */
+/* line 71, scss/_s_style.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -11931,7 +11932,7 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
-/* line 78, scss/_s_style.scss */
+/* line 79, scss/_s_style.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -11940,12 +11941,12 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 10.3 Comments
 --------------------------------------------------------------*/
-/* line 86, scss/_s_style.scss */
+/* line 87, scss/_s_style.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 90, scss/_s_style.scss */
+/* line 91, scss/_s_style.scss */
 .bypostauthor {
   display: block;
 }
@@ -11954,7 +11955,7 @@ _sよりの流用箇所
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 98, scss/_s_style.scss */
+/* line 99, scss/_s_style.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -11962,7 +11963,7 @@ _sよりの流用箇所
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 104, scss/_s_style.scss */
+/* line 105, scss/_s_style.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -11970,7 +11971,7 @@ _sよりの流用箇所
 /*--------------------------------------------------------------
 12.0 Media
 --------------------------------------------------------------*/
-/* line 111, scss/_s_style.scss */
+/* line 112, scss/_s_style.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -11981,7 +11982,7 @@ _sよりの流用箇所
 }
 
 /* Make sure embeds and iframes fit their containers */
-/* line 121, scss/_s_style.scss */
+/* line 122, scss/_s_style.scss */
 embed,
 iframe,
 object {
@@ -11991,24 +11992,24 @@ object {
 /*--------------------------------------------------------------
 12.1 Captions
 --------------------------------------------------------------*/
-/* line 130, scss/_s_style.scss */
+/* line 131, scss/_s_style.scss */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
 
-/* line 135, scss/_s_style.scss */
+/* line 136, scss/_s_style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
 
-/* line 140, scss/_s_style.scss */
+/* line 141, scss/_s_style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 144, scss/_s_style.scss */
+/* line 145, scss/_s_style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
@@ -12016,12 +12017,12 @@ object {
 /*--------------------------------------------------------------
 12.2 Galleries
 --------------------------------------------------------------*/
-/* line 151, scss/_s_style.scss */
+/* line 152, scss/_s_style.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 155, scss/_s_style.scss */
+/* line 156, scss/_s_style.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -12029,47 +12030,47 @@ object {
   width: 100%;
 }
 
-/* line 162, scss/_s_style.scss */
+/* line 163, scss/_s_style.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 166, scss/_s_style.scss */
+/* line 167, scss/_s_style.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 170, scss/_s_style.scss */
+/* line 171, scss/_s_style.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 174, scss/_s_style.scss */
+/* line 175, scss/_s_style.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 178, scss/_s_style.scss */
+/* line 179, scss/_s_style.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 182, scss/_s_style.scss */
+/* line 183, scss/_s_style.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 186, scss/_s_style.scss */
+/* line 187, scss/_s_style.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 190, scss/_s_style.scss */
+/* line 191, scss/_s_style.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 194, scss/_s_style.scss */
+/* line 195, scss/_s_style.scss */
 .gallery-caption {
   display: block;
 }
@@ -12089,14 +12090,6 @@ pre {
   line-height: 1;
 }
 
-/* line 13, scss/_base.scss */
-.vcard {
-  display: inline;
-  margin: 0;
-  border: none;
-  padding: 0;
-}
-
 /*
 文字についてのデザイン
 */
@@ -12114,4 +12107,63 @@ pre {
 /* line 14, scss/_type.scss */
 .entry-content {
   word-wrap: break-word;
+}
+
+/* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
+.nav-links:before, .nav-links:after {
+  content: " ";
+  display: table;
+}
+/* line 173, bower_components/foundation/scss/foundation/components/_global.scss */
+.nav-links:after {
+  clear: both;
+}
+
+/* line 1, scss/_module.scss */
+.vcard {
+  display: inline;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/* line 7, scss/_module.scss */
+.cat-links {
+  margin-right: 20px;
+}
+
+/* line 10, scss/_module.scss */
+.edit-link {
+  display: block;
+}
+
+/* line 13, scss/_module.scss */
+article {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
+article:before, article:after {
+  content: " ";
+  display: table;
+}
+/* line 173, bower_components/foundation/scss/foundation/components/_global.scss */
+article:after {
+  clear: both;
+}
+/* line 16, scss/_module.scss */
+article .thumbnail {
+  width: 75px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 16, scss/_module.scss */
+  article .thumbnail {
+    width: auto;
+  }
+}
+/* line 25, scss/_module.scss */
+article .post_info {
+  overflow: hidden;
 }

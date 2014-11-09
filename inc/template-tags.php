@@ -50,8 +50,8 @@ function foundation_s_megane_post_nav() {
 	<nav class="navigation post-navigation" role="navigation">
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'foundationfoundation_s_megane_megane' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link',     'foundationfoundation_s_megane_megane' ) );
+				previous_post_link( '<div class="nav-previous">前の記事 : %link</div>', _x( '%title', 'Previous post link', 'foundationfoundation_s_megane_megane' ) );
+				next_post_link(     '<div class="nav-next">次の記事 : %link</div>',     _x( '%title', 'Next post link',     'foundationfoundation_s_megane_megane' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -75,12 +75,7 @@ function foundation_s_megane_posted_on() {
 		$time_string
 	);
 
-	$byline = sprintf(
-		_x( '<i class="fa fa-pencil"></i> %s', 'post author', 'foundationfoundation_s_megane_megane' ),
-		'<span class="author vcard"><a class="url" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-	);
-
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+	echo '<span class="posted-on">' . $posted_on . '</span>';
 
 }
 endif;
@@ -93,13 +88,13 @@ function foundation_s_megane_entry_footer() {
 	// Hide category and tag text for pages.
 	if ( 'post' == get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
-		$categories_list = get_the_category_list( __( ', ', 'foundationfoundation_s_megane_megane' ) );
+		$categories_list = get_the_category_list( __( ' | ', 'foundationfoundation_s_megane_megane' ) );
 		if ( $categories_list && foundation_s_megane_categorized_blog() ) {
 			printf( '<span class="cat-links">' . __( '<i class="fa fa-folder-open-o"></i> %1$s') . '</span>', $categories_list );
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( '') );
+		$tags_list = get_the_tag_list( '', __( ' | ') );
 		if ( $tags_list ) {
 			printf( '<span class="tags-links">' . __( '<i class="fa fa-tags"></i> %1$s' ) . '</span>', $tags_list );
 		}

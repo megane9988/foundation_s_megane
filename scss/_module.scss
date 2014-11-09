@@ -1,0 +1,28 @@
+.vcard {
+	display: inline;
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+.cat-links{
+	margin-right: 20px;
+}
+.edit-link{
+	display: block;
+}
+article{
+	border-bottom: 1px solid $smoke;
+	@include clearfix;
+	.thumbnail{
+		width: 75px;
+		height: auto;
+		@media #{$medium-up} {
+			width: auto;
+		}
+		float: left;
+		margin-right: 10px;
+	}
+	.post_info{
+		overflow: hidden;
+	}
+}

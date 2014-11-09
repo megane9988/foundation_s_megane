@@ -1,0 +1,16 @@
+/*
+文字についてのデザイン
+*/
+
+.entry-meta,.entry-footer,.nav-links,.page-links,.site-footer{
+	font-size: rem-calc(14);
+}
+
+.wp-caption-text{
+	font-size: rem-calc(12);
+	line-height: 1;
+}
+
+.entry-content{
+	word-wrap: break-word;
+}

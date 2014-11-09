@@ -1,3 +1,18 @@
+/*
+もともとある単発のスタイルについての対応
+*/
+
 figure{
 	margin: 0;
+}
+pre{
+	word-wrap: break-word;
+	font-size: rem-calc(12);
+	line-height: 1;
+}
+.vcard {
+	display: inline;
+	margin: 0;
+	border: none;
+	padding: 0;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: foundation_s_megane
 Theme URI: http://underscores.me/
@@ -86,7 +87,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 24px;
@@ -181,7 +182,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 68.75rem;
 }
 /* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
 .row:before, .row:after {
@@ -1643,7 +1644,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 1rem;
 }
 /* line 143, bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2350,7 +2351,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4289,7 +4290,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4907,7 +4908,7 @@ kbd {
 /* line 91, bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5486,7 +5487,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 /* line 143, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5496,7 +5497,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 /* line 144, bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5739,7 +5740,7 @@ ul.pagination li {
   /* line 167, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal, dialog {
     width: 80%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5767,7 +5768,7 @@ ul.pagination li {
   /* line 182, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.tiny, dialog.tiny {
     width: 30%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5777,7 +5778,7 @@ ul.pagination li {
   /* line 183, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.small, dialog.small {
     width: 40%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5787,7 +5788,7 @@ ul.pagination li {
   /* line 184, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.medium, dialog.medium {
     width: 60%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5797,7 +5798,7 @@ ul.pagination li {
   /* line 185, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.large, dialog.large {
     width: 70%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5807,7 +5808,7 @@ ul.pagination li {
   /* line 186, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.xlarge, dialog.xlarge {
     width: 95%;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5827,7 +5828,7 @@ ul.pagination li {
   /* line 187, bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.full, dialog.full {
     width: 100vw;
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -5881,7 +5882,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 /* line 70, bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5905,7 +5906,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 /* line 93, bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6075,7 +6076,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6352,7 +6353,7 @@ table tr td {
   background-color: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 1rem;
 }
 /* line 49, bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6790,7 +6791,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -7107,7 +7108,7 @@ meta.foundation-mq-topbar {
 
   /* line 469, bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    max-width: 68.75rem;
     margin: 0 auto;
     margin-bottom: 0;
   }
@@ -7596,14 +7597,14 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 242, bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875rem;
+  font-size: 1.09375rem;
   line-height: 1.6;
 }
 /* line 244, bower_components/foundation/scss/foundation/components/_type.scss */
@@ -7616,7 +7617,7 @@ p aside {
 /* Default header styles */
 /* line 252, bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -7634,27 +7635,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 269, bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.125rem;
+  font-size: 1.125rem;
 }
 
 /* line 270, bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.6875rem;
+  font-size: 1.125rem;
 }
 
 /* line 271, bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.125rem;
 }
 
 /* line 272, bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* line 273, bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* line 274, bower_components/foundation/scss/foundation/components/_type.scss */
@@ -7718,7 +7719,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -7884,27 +7885,27 @@ blockquote p {
 
   /* line 456, bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.75rem;
+    font-size: 1.4375rem;
   }
 
   /* line 457, bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2.3125rem;
+    font-size: 1.4375rem;
   }
 
   /* line 458, bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.6875rem;
+    font-size: 1.125rem;
   }
 
   /* line 459, bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1.4375rem;
+    font-size: 1rem;
   }
 
   /* line 460, bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   /* line 461, bower_components/foundation/scss/foundation/components/_type.scss */
@@ -8069,7 +8070,7 @@ blockquote p {
 }
 /* line 174, bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 /* line 293, bower_components/foundation/scss/foundation/components/_offcanvas.scss */
@@ -9079,14 +9080,17 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 1, scss/_grid.scss */
+/*
+gridの設定
+*/
+/* line 5, scss/_grid.scss */
 #masthead {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 68.75rem;
 }
 /* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
 #masthead:before, #masthead:after {
@@ -9097,7 +9101,7 @@ th.hide-for-touch {
 #masthead:after {
   clear: both;
 }
-/* line 3, scss/_grid.scss */
+/* line 7, scss/_grid.scss */
 #masthead .site-branding, #masthead #site-navigation {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -9105,14 +9109,14 @@ th.hide-for-touch {
   float: left;
 }
 
-/* line 7, scss/_grid.scss */
+/* line 11, scss/_grid.scss */
 #content {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 68.75rem;
 }
 /* line 172, bower_components/foundation/scss/foundation/components/_global.scss */
 #content:before, #content:after {
@@ -9123,21 +9127,42 @@ th.hide-for-touch {
 #content:after {
   clear: both;
 }
-/* line 9, scss/_grid.scss */
+/* line 13, scss/_grid.scss */
 #content #primary {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 66.66667%;
+  width: 100%;
   float: left;
 }
-/* line 12, scss/_grid.scss */
+@media only screen and (min-width: 64.063em) {
+  /* line 13, scss/_grid.scss */
+  #content #primary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+  }
+}
+/* line 19, scss/_grid.scss */
 #content #secondary {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 33.33333%;
+  width: 100%;
   float: left;
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 19, scss/_grid.scss */
+  #content #secondary {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+  }
+}
 
+/*
+_sよりの流用箇所
+*/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -9155,7 +9180,7 @@ th.hide-for-touch {
 6.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers */
-/* line 19, scss/_s_style.scss */
+/* line 24, scss/_s_style.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -9164,7 +9189,7 @@ th.hide-for-touch {
   overflow: hidden;
 }
 
-/* line 27, scss/_s_style.scss */
+/* line 32, scss/_s_style.scss */
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -9191,21 +9216,21 @@ th.hide-for-touch {
 /*--------------------------------------------------------------
 7.0 Alignments
 --------------------------------------------------------------*/
-/* line 52, scss/_s_style.scss */
+/* line 57, scss/_s_style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 58, scss/_s_style.scss */
+/* line 63, scss/_s_style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 64, scss/_s_style.scss */
+/* line 69, scss/_s_style.scss */
 .aligncenter {
   clear: both;
   display: block;
@@ -9218,36 +9243,36 @@ th.hide-for-touch {
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
-/* line 76, scss/_s_style.scss */
+/* line 81, scss/_s_style.scss */
 .sticky {
   display: block;
 }
 
-/* line 80, scss/_s_style.scss */
+/* line 85, scss/_s_style.scss */
 .hentry {
   margin: 0 0 1.5em;
 }
 
-/* line 84, scss/_s_style.scss */
+/* line 89, scss/_s_style.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 89, scss/_s_style.scss */
+/* line 94, scss/_s_style.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 94, scss/_s_style.scss */
+/* line 99, scss/_s_style.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-/* line 100, scss/_s_style.scss */
+/* line 105, scss/_s_style.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -9256,7 +9281,7 @@ th.hide-for-touch {
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
-/* line 108, scss/_s_style.scss */
+/* line 113, scss/_s_style.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -9265,12 +9290,12 @@ th.hide-for-touch {
 /*--------------------------------------------------------------
 10.3 Comments
 --------------------------------------------------------------*/
-/* line 116, scss/_s_style.scss */
+/* line 121, scss/_s_style.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 120, scss/_s_style.scss */
+/* line 125, scss/_s_style.scss */
 .bypostauthor {
   display: block;
 }
@@ -9279,7 +9304,7 @@ th.hide-for-touch {
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 128, scss/_s_style.scss */
+/* line 133, scss/_s_style.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -9287,7 +9312,7 @@ th.hide-for-touch {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 134, scss/_s_style.scss */
+/* line 139, scss/_s_style.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -9295,7 +9320,7 @@ th.hide-for-touch {
 /*--------------------------------------------------------------
 12.0 Media
 --------------------------------------------------------------*/
-/* line 141, scss/_s_style.scss */
+/* line 146, scss/_s_style.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -9306,7 +9331,7 @@ th.hide-for-touch {
 }
 
 /* Make sure embeds and iframes fit their containers */
-/* line 151, scss/_s_style.scss */
+/* line 156, scss/_s_style.scss */
 embed,
 iframe,
 object {
@@ -9316,24 +9341,24 @@ object {
 /*--------------------------------------------------------------
 12.1 Captions
 --------------------------------------------------------------*/
-/* line 160, scss/_s_style.scss */
+/* line 165, scss/_s_style.scss */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
 
-/* line 165, scss/_s_style.scss */
+/* line 170, scss/_s_style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
 
-/* line 170, scss/_s_style.scss */
+/* line 175, scss/_s_style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 174, scss/_s_style.scss */
+/* line 179, scss/_s_style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
@@ -9341,12 +9366,12 @@ object {
 /*--------------------------------------------------------------
 12.2 Galleries
 --------------------------------------------------------------*/
-/* line 181, scss/_s_style.scss */
+/* line 186, scss/_s_style.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 185, scss/_s_style.scss */
+/* line 190, scss/_s_style.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -9354,52 +9379,89 @@ object {
   width: 100%;
 }
 
-/* line 192, scss/_s_style.scss */
+/* line 197, scss/_s_style.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 196, scss/_s_style.scss */
+/* line 201, scss/_s_style.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 200, scss/_s_style.scss */
+/* line 205, scss/_s_style.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 204, scss/_s_style.scss */
+/* line 209, scss/_s_style.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 208, scss/_s_style.scss */
+/* line 213, scss/_s_style.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 212, scss/_s_style.scss */
+/* line 217, scss/_s_style.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 216, scss/_s_style.scss */
+/* line 221, scss/_s_style.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 220, scss/_s_style.scss */
+/* line 225, scss/_s_style.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 224, scss/_s_style.scss */
+/* line 229, scss/_s_style.scss */
 .gallery-caption {
   display: block;
 }
 
-/* line 1, scss/_base.scss */
+/*
+もともとある単発のスタイルについての対応
+*/
+/* line 5, scss/_base.scss */
 figure {
   margin: 0;
+}
+
+/* line 8, scss/_base.scss */
+pre {
+  word-wrap: break-word;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+/* line 13, scss/_base.scss */
+.vcard {
+  display: inline;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/*
+文字についてのデザイン
+*/
+/* line 5, scss/_type.scss */
+.entry-meta, .entry-footer, .nav-links, .page-links, .site-footer {
+  font-size: 0.875rem;
+}
+
+/* line 9, scss/_type.scss */
+.wp-caption-text {
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+/* line 14, scss/_type.scss */
+.entry-content {
+  word-wrap: break-word;
 }
